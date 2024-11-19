@@ -22,7 +22,6 @@ def probability_of_a(N, letters, K):
 
 
 def main():
-    # Input
     N = int(
         input("Enter the number of elements (N): ")
     )  # Number of elements in the list
@@ -38,11 +37,9 @@ def main():
         print("Invalid input: K cannot be greater than N")
         return
 
-    # Output the probability
     result = probability_of_a(N, letters, K)
     print(result)
 
 
-# Call the main function to execute the program
 if __name__ == "__main__":
     main()

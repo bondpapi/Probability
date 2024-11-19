@@ -36,5 +36,4 @@ N = int(input())  # Number of elements in the list
 letters = input().split()  # List of letters
 K = int(input())  # Number of indices to be selected
 
-# Output the probability
 print(probability_of_a(N, letters, K))
